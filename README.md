@@ -1,20 +1,29 @@
-# LinkSnap API (Flask)
+# Welcome to your Lovable project
 
-```bash
-cd backend
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-python app.py            # runs on http://localhost:5000
-pytest                   # run the API tests
+This project was built with [Lovable](https://lovable.dev).
+
+## Build with Lovable
+
+Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
+- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
 ```
 
-Environment variables:
+## Built with
 
-| Variable | Purpose | Default |
-| --- | --- | --- |
-| `PORT` | Port to listen on | `5000` |
-| `LINKSNAP_DB` | SQLite file path | `backend/linksnap.db` |
-| `LINKSNAP_PUBLIC_URL` | Base used in generated short links | request host |
-| `LINKSNAP_CORS_ORIGINS` | Allowed frontend origins | `*` |
-
-The frontend reads `VITE_API_BASE_URL` (default `http://localhost:5000`).
+- TanStack Start
+- TypeScript
+- React
+- Tailwind CSS
